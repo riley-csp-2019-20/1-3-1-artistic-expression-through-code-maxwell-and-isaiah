@@ -51,49 +51,59 @@ def botup():
         coin_1.ht()
         print(points)
         collision=False
+        coin_1.goto(500,500)
     if (player.distance(coin_2.xcor(), coin_2.ycor()) < 10):
         collision=True
         points += 1
         coin_2.ht()
         print(points)
         collision=False
+        coin_2.goto(500,500)
     if (player.distance(coin_3.xcor(), coin_3.ycor()) < 10):
         collision=True
         points += 1
         coin_3.ht()
         print(points)
         collision=False
+        coin_3.goto(500,500)
     if (player.distance(coin_4.xcor(), coin_4.ycor()) < 10):
         collision=True
         points += 1
-        coin_1.ht()
+        coin_4.ht()
         print(points)
         collision=False
+        coin_4.goto(500,500)
     if (player.distance(coin_5.xcor(), coin_5.ycor()) < 10):
         collision=True
         points += 1
         coin_5.ht()
         print(points)
         collision=False
+        coin_5.goto(500,500)
     if (player.distance(coin_6.xcor(), coin_6.ycor()) < 10):
         collision=True
         points += 1
         coin_6.ht()
         print(points)
         collision=False
+        coin_6.goto(500,500)
     if (player.distance(coin_7.xcor(), coin_7.ycor()) < 10):
         collision=True
         points += 1
         coin_7.ht()
         print(points)
         collision=False
+        coin_7.goto(500,500)
     if (player.distance(coin_8.xcor(), coin_8.ycor()) < 10):
         collision=True
         points += 1
         coin_8.ht()
         print(points)
         collision=False
-
+        coin_8.goto(500,500)
+    if (points > 7):
+        print("You win!")    
+        quit()
 
 def botright():
     global collision
@@ -106,48 +116,59 @@ def botright():
         coin_1.ht()
         print(points)
         collision=False
+        coin_1.goto(500,500)
     if (player.distance(coin_2.xcor(), coin_2.ycor()) < 10):
         collision=True
         points += 1
         coin_2.ht()
         print(points)
         collision=False
+        coin_2.goto(500,500)
     if (player.distance(coin_3.xcor(), coin_3.ycor()) < 10):
         collision=True
         points += 1
         coin_3.ht()
         print(points)
         collision=False
+        coin_3.goto(500,500)
     if (player.distance(coin_4.xcor(), coin_4.ycor()) < 10):
         collision=True
         points += 1
-        coin_1.ht()
+        coin_4.ht()
         print(points)
         collision=False
+        coin_4.goto(500,500)
     if (player.distance(coin_5.xcor(), coin_5.ycor()) < 10):
         collision=True
         points += 1
         coin_5.ht()
         print(points)
         collision=False
+        coin_5.goto(500,500)
     if (player.distance(coin_6.xcor(), coin_6.ycor()) < 10):
         collision=True
         points += 1
         coin_6.ht()
         print(points)
         collision=False
+        coin_6.goto(500,500)
     if (player.distance(coin_7.xcor(), coin_7.ycor()) < 10):
         collision=True
         points += 1
         coin_7.ht()
         print(points)
         collision=False
+        coin_7.goto(500,500)
     if (player.distance(coin_8.xcor(), coin_8.ycor()) < 10):
         collision=True
         points += 1
         coin_8.ht()
         print(points)
         collision=False
+        coin_8.goto(500,500)
+    if (points > 7):
+        print("You win!")    
+        quit()
 
 def botdown():
     global collision
@@ -160,48 +181,59 @@ def botdown():
         coin_1.ht()
         print(points)
         collision=False
+        coin_1.goto(500,500)
     if (player.distance(coin_2.xcor(), coin_2.ycor()) < 10):
         collision=True
         points += 1
         coin_2.ht()
         print(points)
         collision=False
+        coin_2.goto(500,500)
     if (player.distance(coin_3.xcor(), coin_3.ycor()) < 10):
         collision=True
         points += 1
         coin_3.ht()
         print(points)
         collision=False
+        coin_3.goto(500,500)
     if (player.distance(coin_4.xcor(), coin_4.ycor()) < 10):
         collision=True
         points += 1
-        coin_1.ht()
+        coin_4.ht()
         print(points)
         collision=False
+        coin_4.goto(500,500)
     if (player.distance(coin_5.xcor(), coin_5.ycor()) < 10):
         collision=True
         points += 1
         coin_5.ht()
         print(points)
         collision=False
+        coin_5.goto(500,500)
     if (player.distance(coin_6.xcor(), coin_6.ycor()) < 10):
         collision=True
         points += 1
         coin_6.ht()
         print(points)
         collision=False
+        coin_6.goto(500,500)
     if (player.distance(coin_7.xcor(), coin_7.ycor()) < 10):
         collision=True
         points += 1
         coin_7.ht()
         print(points)
         collision=False
+        coin_7.goto(500,500)
     if (player.distance(coin_8.xcor(), coin_8.ycor()) < 10):
         collision=True
         points += 1
         coin_8.ht()
         print(points)
         collision=False
+        coin_8.goto(500,500)
+    if (points > 7):
+        print("You win!")    
+        quit()
 
 def botleft():
     global collision
@@ -214,49 +246,59 @@ def botleft():
         coin_1.ht()
         print(points)
         collision=False
+        coin_1.goto(500,500)
     if (player.distance(coin_2.xcor(), coin_2.ycor()) < 10):
         collision=True
         points += 1
         coin_2.ht()
         print(points)
         collision=False
+        coin_2.goto(500,500)
     if (player.distance(coin_3.xcor(), coin_3.ycor()) < 10):
         collision=True
         points += 1
         coin_3.ht()
         print(points)
         collision=False
+        coin_3.goto(500,500)
     if (player.distance(coin_4.xcor(), coin_4.ycor()) < 10):
         collision=True
         points += 1
-        coin_1.ht()
+        coin_4.ht()
         print(points)
         collision=False
+        coin_4.goto(500,500)
     if (player.distance(coin_5.xcor(), coin_5.ycor()) < 10):
         collision=True
         points += 1
         coin_5.ht()
         print(points)
         collision=False
+        coin_5.goto(500,500)
     if (player.distance(coin_6.xcor(), coin_6.ycor()) < 10):
         collision=True
         points += 1
         coin_6.ht()
         print(points)
         collision=False
+        coin_6.goto(500,500)
     if (player.distance(coin_7.xcor(), coin_7.ycor()) < 10):
         collision=True
         points += 1
         coin_7.ht()
         print(points)
         collision=False
+        coin_7.goto(500,500)
     if (player.distance(coin_8.xcor(), coin_8.ycor()) < 10):
         collision=True
         points += 1
         coin_8.ht()
         print(points)
         collision=False
-
+        coin_8.goto(500,500)
+    if (points > 7):
+        print("You win!")    
+        quit()
 # Draw the maze
 for i in range(repeat_amount):
     if i > 4:
@@ -276,9 +318,7 @@ for i in range(repeat_amount):
         move_dist +=15    
  
 
-
 # Add coins to the maze
-coin_1 = trtl.Turtle()
 coin_1.ht()
 coin_1.penup()
 coin_1.shape("circle")
